@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>EnCopa.TV</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="scripts/devices/lg/lgvkeyboard/LgVKeyboard.css"/>
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <div class="buffer"></div>
+        <div class="popup_opacity"></div>
+        <div class="popup">
+            <div class="popup_text"></div>
+            <div id="bt_accept_popup"  class="bt_accept">
+                <span id="bt_accept_text_popup" class="bt_accept_text">Aceptar</span>
+            </div>
+        </div>
+
+		<div class="modal_aviso" id="modal_aviso"></div>
+		<div class="modal_age" id="modal_age"></div>
+
+
+        <div id="wrapper" class="wrapper">
+			<div id="header" class="header"></div>
+            <div id="container" class="content">
+				<!--<div id="register_wrapper" class="register_wrapper"></div>-->
+			</div>
+            <div id="footer" class="footer"></div>
+        </div>
+
+        <div id="videoPlayer"></div>
+        <div id="bwcheck"></div>
+
+        <!-- build:js scripts/scripts.js -->
+        <script src="scripts/vendor/jquery-2.1.1.min.js"></script>
+        <script src="scripts/vendor/jquery.tmpl.min.js"></script>
+        <script src="scripts/vendor/lodash.min.js"></script>
+        <script src="scripts/vendor/backbone-min.js"></script>
+        <script src="scripts/vendor/ejs.min.js"></script>
+        <script src="scripts/vendor/md5.js"></script>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/views/application-view.js"></script>
+        <script src="scripts/models/application-model.js"></script>
+        <script src="scripts/collections/application-collection.js"></script>
+        <script src="scripts/routes/application-router.js"></script>
+
+        <script src="scripts/devices/lg/workspace.js"></script>
+        <script src="scripts/devices/lg/player.js"></script>
+        <script src="scripts/devices/lg/keycode.js"></script>
+        <script src="scripts/helpers/navigation.js"></script>
+        <script src="scripts/devices/lg/lgvkeyboard/LgVKeyboard.js" id="mainVKScript"></script>
+		
+		<!--<script src="http://plugins.nice264.com/lg/2.0.2/Nice264Plugins.min.js"></script>-->
+		<!--<script src="http://192.168.2.155:8080/target/target-script-min.js#anonymous"></script>-->
+		<!--<script src="nice264Plugin.js"></script>-->
+
+		<script type="text/javascript" src="http://smartplugin.youbora.com/1.3/js/libs/youbora-data.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="http://smartplugin.youbora.com/1.3/js/libs/youbora-api.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="http://smartplugin.youbora.com/1.3/sp/spyoubora.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

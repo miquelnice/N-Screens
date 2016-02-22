@@ -1,0 +1,29 @@
+<% 
+if (clearfix == true){
+	%><li id="<%= navindex %>" navigate="#channel/item/<%= id %>" class="right_nm">
+		<div class="tb">
+			<img width="101" src="<%= img_small %>" alt="" title=""/>
+		</div>
+		<div class="tb_text">
+			<span class="tb_title"><%= title %></span>
+			<span class="tb_subtitle"><%= meta %></span>
+			<span class="subject"><%= category %></span>
+			<span class="duration"><%= duration %></span>
+			<span class="button">Ver contenido</span>
+		</div>
+	</li><%
+} else {
+	%><li id="<%= navindex %>" navigate="#channel/item/<%= id %>">
+		<div class="tb">
+			<img width="101" src="<%= img_small %>" alt="" title=""/>
+		</div>
+		<div class="tb_text">
+			<span class="tb_title"><%= title %></span>
+			<span class="tb_subtitle"><%= meta %></span>
+			<span class="subject"><%= category %></span>
+			<span class="duration"><%= duration %></span>
+			<span class="button">Ver contenido</span>
+		</div>
+	</li><%
+}
+%>

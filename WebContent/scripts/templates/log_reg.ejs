@@ -1,0 +1,18 @@
+<%
+if (Workspace.globalName == "" || Workspace.globalName == undefined){ 
+	%>
+	<div class="connect">
+		<div class="log" id="log">Entrar</div>
+		<div class="reg" id="reg">Registrarse</div>
+	</div>
+	
+	<%
+} else{
+	%>
+	<div class="user" id="user">
+		<div class="user_icon" id="user_icon"></div>
+		<div class="user_name" id="user_name"><%= Workspace.globalName %></div>
+	</div>
+	<%
+}
+%>

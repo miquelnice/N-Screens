@@ -1,0 +1,28 @@
+<div id="log_reg" class="log_reg"></div>
+	
+<div class="col_left">
+	<div class="dt_title">
+		<span><%= title %> <br/> <%= director %></span>
+	</div>
+	<div id="video" class="video">
+		<div class="video_img_in">
+			<div class="play_big_in"></div>
+			<img width="711" src="<%= img_big_tv %>" />
+		</div>
+	</div>
+</div>
+<div class="col_right">
+	<div class="description_box">
+		<div class="description_header">
+			<span class="sub">Temática: 
+				<span class="red"><%= category %></span>
+			</span>
+			<span class="lang">Idioma: <%= language %></span>
+		</div>
+		<span class="time"><%= duration %></span>
+		<span class="description_title">Descripción</span>
+		<p class="box_text_2"><%= sinopsis %></p>
+		<a href="#channel" class="bt_back" id="detail_back">Volver al listado</a>
+	</div>
+	<!--<div class="test" id="bdtest">Comprueba el estado de tu red haciendo un test de velocidad</div>-->
+</div>

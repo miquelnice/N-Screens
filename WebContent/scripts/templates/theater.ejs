@@ -1,0 +1,8 @@
+<div class="playback" id="videoPlayerControls"></div>
+<%
+	if (playerType == 'regular'){ 
+		%><object id="video_player" type="video/mp4" style="position: absolute; top: 0; left: 0; z-index: 0;"></object><%
+	} else if (playerType == 'drm'){
+		%><object id="video_player_drm" type="video/mp4" drm_type="widevine" style="position: absolute; top: 0; left: 0; z-index: 0;"></object><%
+	}
+%>
